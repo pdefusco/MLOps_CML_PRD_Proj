@@ -1,2 +1,9 @@
-numpy
-pandas
+dbldatagen==0.3.5
+jmespath==0.10.0
+Faker==20.1.0
+pandas==2.1.3
+pyarrow==14.0.1
+matplotlib==3.7.0
+scikit-learn==1.3.2
+seaborn==0.13.0
+git+https://github.com/fastforwardlabs/cmlbootstrap#egg=cmlbootstrap
