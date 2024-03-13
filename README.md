@@ -8,10 +8,8 @@ If you are following the MLOps Workshop guide, this project will be automaticall
 
 ### High Level Workflow
 
-In this part of the workshop you will develop a Classifier to predict credit card fraud. All scripts are located in the "code" folder.
+In this part of the workshop you will monitor and redeploy a Classifier to predict credit card fraud. This project will effectively work as your production environment. All scripts are located in the "code" folder.
 
-1. With a CML Session with Workbench Editor run "0_data_gen.py" to create synthetic credit card data.
-2. With a CML Session with JupyterLab Editor and Spark Add-On 3.2+ run through the "1_data_exploration.ipynb" notebook to familiarize yourself with the data. Run every cell without modification.
-3. Using the same CML Session, run through the "2_model_building.ipynb" notebook to build a Spark Mllib classifier and manage data with Apache Iceberg. Run every cell without modification.
-4. Using the same CML Session, run through the "3_register_model.ipynb" notebook to deploy the PRD project and then the classifier in it. Run every cell without modification.
-5. Navigate back to the CML Home Page. You should now see a new CML Project denominated "PRD". Open it and continue from there with the instructions provided in the readme.  
+1. With a CML Session with Workbench Editor run "04_mlops_simulation.py" to create synthetic credit card prediction requests to the API endpoint hosted in this project.
+2. Using the same CML Session, run through the "05_mlops_visual.py" script to monitor model quality in production.
+3. Using the same CML Session, run through the "06_redeployment.py" script to deploy a new model build in production.
